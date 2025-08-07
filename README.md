@@ -1,134 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jonathan Tobey - Grindr Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #121212;
-      color: #eee;
-      max-width: 400px;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 10px;
-      background: #1e1e1e;
-      box-shadow: 0 0 15px #222;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    img.profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #f50057;
-      margin-bottom: 15px;
-    }
-    h1 {
-      margin: 0;
-      font-size: 28px;
-      color: #f50057;
-    }
-    .sub-info {
-      font-size: 14px;
-      color: #bbb;
-      margin-bottom: 10px;
-    }
-    section {
-      margin-bottom: 20px;
-    }
-    h2 {
-      border-bottom: 2px solid #f50057;
-      padding-bottom: 5px;
-      margin-bottom: 10px;
-      font-size: 18px;
-      color: #f50057;
-    }
-    p {
-      line-height: 1.4;
-    }
-    .stats {
-      display: flex;
-      justify-content: space-between;
-      background: #2a2a2a;
-      padding: 10px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    .stat {
-      text-align: center;
-      flex: 1;
-    }
-    .stat strong {
-      display: block;
-      font-size: 16px;
-      margin-bottom: 3px;
-      color: #f50057;
-    }
-    footer {
-      text-align: center;
-      font-size: 12px;
-      color: #555;
-      margin-top: 30px;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>@jonathantobey • Instagram photos and videos</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    color: #262626;
+  }
+  .profile {
+    max-width: 935px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .profile-info {
+    flex: 1;
+  }
+  .username {
+    font-size: 28px;
+    font-weight: 600;
+    color: #262626;
+  }
+  .follow-stats {
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+    color: #262626;
+  }
+  .stat {
+    font-size: 16px;
+  }
+  .bio {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #262626;
+    line-height: 1.3;
+  }
+  .location {
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .highlights {
+    max-width: 935px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 15px;
+  }
+  .highlight {
+    text-align: center;
+    font-size: 12px;
+    color: #262626;
+  }
+  .highlight-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+    background: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .posts {
+    max-width: 935px;
+    margin: 20px auto 60px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .post {
+    background: white;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+  }
+  .post img {
+    width: 100%;
+    display: block;
+  }
+  .caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #262626;
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    padding: 15px 0;
+  }
+</style>
 </head>
 <body>
-  <header>
-    <img
-      class="profile-pic"
-      src="https://i.pravatar.cc/150?u=jonathantobey"
-      alt="Jonathan Tobey"
-    />
-    <h1>Jonathan Tobey, 28</h1>
-    <div class="sub-info">5 miles away - Sugma, North Dakota</div>
-  </header>
 
-  <div class="stats">
-    <div class="stat">
-      <strong>Tribe</strong>Clean-cut / Geek / Otter
-    </div>
-    <div class="stat">
-      <strong>Height</strong>5'11"
-    </div>
-    <div class="stat">
-      <strong>Weight</strong>165 lbs
-    </div>
-    <div class="stat">
-      <strong>Position</strong>Vers
-    </div>
-  </div>
+<header>
+  <h1>Instagram</h1>
+</header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Coffee addict, museum lurker, and unapologetic overthinker. Part-time coder,
-      full-time vibing. I’ll probably send you memes before I flirt. Let’s pretend
-      we’re meeting for the first time at Target in Sugma.
-    </p>
-  </section>
+<section class="profile">
+  <img
+    class="profile-pic"
+    src="https://i.pravatar.cc/150?u=jonathantobey"
+    alt="Jonathan Tobey"
+  />
+  <div class="profile-info">
+    <div class="username">jonathantobey</div>
+    <div class="location">Sugma, North Dakota</div>
+    <div class="
 
-  <section>
-    <h2>Interests</h2>
-    <p>Indie music, cycling, board games, retro tech, low-effort brunch</p>
-  </section>
-
-  <section>
-    <h2>Spotify Top Song</h2>
-    <p>“Sweater Weather – The Neighbourhood”</p>
-  </section>
-
-  <section>
-    <h2>Last Seen</h2>
-    <p>20 minutes ago</p>
-  </section>
-
-  <footer>
-    &copy; 2025 Sugma Dating App &mdash; Profile mockup only
-  </footer>
-</body>
-</html>
